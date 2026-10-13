@@ -1,0 +1,38 @@
+# ---------------------------------------------------------------------------
+# IoT Temperature Monitor - git ignore rules
+# ---------------------------------------------------------------------------
+
+# Arduino / avr-gcc build output
+build/
+*.hex
+*.elf
+*.bin
+*.eep
+*.map
+*.lst
+*.o
+*.d
+*.a
+*.so
+.arduino/
+Arduino/
+
+# PlatformIO (for users who prefer it)
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Visual Studio Code / editors
+.vscode/
+.idea/
+*.code-workspace
+
+# Fritzing backups
+*.fzz.bak
+*fz.bak
+*-bak.fzz
+
+# OS cruft
+.DS_Store
+Thumbs.db
+desktop.ini
