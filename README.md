@@ -48,13 +48,13 @@ the sketch stays responsive.
 
 ## Features
 
-- 🌡️ **LM34 analog sensing** with oversampling / averaging for a stable reading.
-- 🖥️ **SSD1306 128×32 OLED** output (large Fahrenheit value + Celsius + status).
-- 🔔 **High / low alarm** with hysteresis, a PWM-blinking LED and a passive buzzer.
-- 📈 **Min / max tracking** since power-on, logged over serial.
-- ⚙️ **Fully configurable** pins, thresholds and timing via `config.h`.
-- 🧩 **Modular code** (`LM34`, `Display`, `Alarm`) with no blocking `delay()` in `loop()`.
-- 🧪 **Optional 8-channel expansion** example for the DS2482S-800 + DS18B20.
+-  **LM34 analog sensing** with oversampling / averaging for a stable reading.
+-  **SSD1306 128×32 OLED** output (large Fahrenheit value + Celsius + status).
+-  **High / low alarm** with hysteresis, a PWM-blinking LED and a passive buzzer.
+-  **Min / max tracking** since power-on, logged over serial.
+-  **Fully configurable** pins, thresholds and timing via `config.h`.
+-  **Modular code** (`LM34`, `Display`, `Alarm`) with no blocking `delay()` in `loop()`.
+-  **Optional 8-channel expansion** example for the DS2482S-800 + DS18B20.
 
 ## Hardware
 
