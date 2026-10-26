@@ -1,7 +1,7 @@
 # IoT Temperature Monitor
 
 An Arduino-based temperature monitor that reads an **LM34** sensor, displays
-live readings on a **SSD1306 OLED**, and raises a visual + audible alarm when
+live readings on a **SSD1306 OLED**, and raises a visual & audible alarm when
 the temperature leaves a configurable range.
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
